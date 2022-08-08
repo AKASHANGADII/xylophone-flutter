@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title:"Xylophone app",
       home: Scaffold(
         backgroundColor: Colors.black,
         body: SafeArea(
